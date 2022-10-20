@@ -14,9 +14,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(inputField);
-
     AddInputFields(inputField);
-
     setInputField({name:"",age:"",salary:""});
     }
 
