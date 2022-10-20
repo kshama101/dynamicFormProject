@@ -42,8 +42,7 @@ import {useState} from 'react';
     //handleSubmit needs to be passed as the value to the onSubmit prop.
     //handleRegistration function will be invoked along with the registered field values when 
     //the form validation is successful. The second function handleError is called with errors when the validation fails.
-   <div>
-      
+   <div>  
     <form className="form-container-div" noValidate onSubmit={handleSubmit(handleRegistration, handleError)} >
       <div className='mb-2'>
         <input name="name"

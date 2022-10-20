@@ -2,6 +2,7 @@
   padding-top: 20px;
   text-align: center;
 }
+
 #submit {
   background-color: green;
   color: white;
@@ -9,9 +10,11 @@
   height: 30px;
   border-radius: 5px;
 }
+
 #submit:hover {
   background-color: purple;
 }
+
 .text-danger{
   color: red;
 }

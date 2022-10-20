@@ -25,7 +25,6 @@ const handleChange = (event) => {
   return (
     <div className="App">
       <form>
-     
               <input
                 name='name'
                 placeholder='Name'
@@ -33,7 +32,6 @@ const handleChange = (event) => {
                 value={inputField.name}
               />
               <br />
-             
               <input
                 name='age'
                 placeholder='Age'
